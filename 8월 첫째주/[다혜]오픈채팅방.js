@@ -14,3 +14,5 @@ function solution(record) {
   }
   return answer;
 }
+
+//해시 자료구조를 이용하여 key값으로 아이디를, value값으로 닉네임을 넣는다!
