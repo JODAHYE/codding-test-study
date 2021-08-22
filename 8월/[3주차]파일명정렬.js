@@ -28,8 +28,5 @@ function num(f, hl){
       if(48<=f[i].charCodeAt() && f[i].charCodeAt()<=57) num+=f[i];
       else break;
   }
-  if(num.length>5){
-      num = num.splice(0, 5);
-  } 
   return Number(num);
 }
